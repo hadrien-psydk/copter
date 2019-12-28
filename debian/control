@@ -1,0 +1,13 @@
+Source: copter
+Section: graphics
+Priority: optional
+Maintainer: Hadrien Nilsson <hadrien@psydk.org>
+Standards-Version: 4.1.2
+Homepage: http://github.com/hadrien-psydk/copter
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/pngoptimizer.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/pngoptimizer.git
+
+Package: copter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: experiment with github with ppa
