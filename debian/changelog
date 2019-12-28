@@ -1,3 +1,5 @@
-copter (1.1-1) bionic; urgency=medium
+copter (1.1-1ubuntu1) UNRELEASED; urgency=medium
 
-  * Initial release
+  * 
+
+ -- Hadrien Nilsson <hadrien@psydk.org>  Sat, 28 Dec 2019 10:56:55 +0100
