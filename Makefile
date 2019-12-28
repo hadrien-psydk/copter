@@ -13,4 +13,4 @@ clean:
 
 
 install: $(TARGET)
-	cp $(TARGET) /usr/bin/
+	cp $(TARGET) $(DESTDIR)/usr/bin/
