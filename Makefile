@@ -13,4 +13,7 @@ clean:
 
 
 install: $(TARGET)
+ifneq ($(DESTDIR),)
+	mkdir -p $(DESTDIR)/usr/bin
+endif
 	cp $(TARGET) $(DESTDIR)/usr/bin/
